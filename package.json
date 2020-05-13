@@ -1,0 +1,21 @@
+{
+  "name": "compose-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "docker-compose -f docker-compose.dev.yml up -d",
+    "down": "docker-compose -f docker-compose.dev.yml down",
+    "down:v": "docker-compose -f docker-compose.dev.yml down -v",
+    "stop": "docker-compose -f docker-compose.dev.yml stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EjikVSeti/compose-postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EjikVSeti/compose-postgres/issues"
+  },
+  "homepage": "https://github.com/EjikVSeti/compose-postgres#readme"
+}
